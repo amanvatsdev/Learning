@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/amanvatsdev/Learning/23012025/TagVersion"
 	"github.com/amanvatsdev/Learning/23012025/dependecy/Bark"
 	"github.com/amanvatsdev/Learning/23012025/dependecy/Sound"
 )
@@ -17,5 +18,8 @@ func main() {
 	for SeraialNumber,Value:=range AnimalSounds{
 	
 		fmt.Println(SeraialNumber+1,Value)
+
+	//using of tag version package here
+	TagVersion.PracticingVersion()
 	}
 }
