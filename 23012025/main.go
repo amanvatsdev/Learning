@@ -12,8 +12,10 @@ func main() {
 	Puupy:=Bark.Puppy()
 	CatSound:=Sound.Cat()
 	HumanSound:=Sound.Human()
-	AnimalSounds:=[]string{_,AdultDog,Puupy,CatSound,HumanSound}
+	AnimalSounds:=[]string{AdultDog,Puupy,CatSound,HumanSound}
+	
 	for SeraialNumber,Value:=range AnimalSounds{
-		fmt.Println(SeraialNumber,Value)
+	
+		fmt.Println(SeraialNumber+1,Value)
 	}
 }
