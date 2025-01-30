@@ -13,23 +13,18 @@ func Tag14() {
 }
 
 func main() {
+
 	AdultDog := Bark.AuldtDog()
 	Puupy := Bark.Puppy()
 	CatSound := Sound.Cat()
 	HumanSound := Sound.Human()
 	AnimalSounds := []string{AdultDog, Puupy, CatSound, HumanSound}
-
 	for SeraialNumber, Value := range AnimalSounds {
-
 		fmt.Println(SeraialNumber+1, Value)
-
 		//using of tag version package here
 		TagVersion.PracticingVersion()
 		Tag14()
-
-
-	// this is brought from the Hands on Exercise Directory 
-	
 	}
-	
+	// this is brought from the Hands on Exercise Directory
+
 }
