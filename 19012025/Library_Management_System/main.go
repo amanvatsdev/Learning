@@ -81,9 +81,9 @@ func main() {
 		fmt.Println("You have chosen the third option.")
 		fmt.Println("Type the title you want to print:")
 		title := bufio.NewScanner(os.Stdin)
-		if title.Scan(){
-			titleName:=title.Text()
-			fmt.Println("hello",titleName)
+		if title.Scan() {
+			titleName := title.Text()
+			fmt.Println("hello", titleName)
 		}
 		fmt.Println(libraryData)
 	}
