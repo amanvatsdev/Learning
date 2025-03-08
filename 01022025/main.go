@@ -21,7 +21,7 @@ func main() {
 	fmt.Println("------------------------------------------------------------------------------")
 	Var1[1] = 9999999
 
-	fmt.Printf("VAr1 Lenth=%d Capacity =%d,Value=%d\n", len(Var1), cap(Var1), Var1)
+	fmt.Printf("VAr1 Lenth=%d Capacity =%d,Value=%d\n", len(Var1), cap(Var1), Var1)``
 	fmt.Printf("VAr2 Lenth=%d Capacity =%d,Value=%d\n", len(Var2), cap(Var2), Var2)
 
 	Var1[1] = 9999
